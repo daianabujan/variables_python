@@ -38,3 +38,17 @@ Cualquier duda con estos métodos pueden consultarla por el campus
 
 print('Ahora si! buena suerte')
 # Empezar aquí la resolución del ejercicio
+
+# Búsqueda de información: https://uniwebsidad.com/libros/python/capitulo-6/metodos-de-formato 
+
+print('Ingrese su nombre:')
+nombre = str(input())
+ 
+print('Ingrese su Apellido:')
+apellido = str(input())
+
+string = (nombre + ' ' + apellido)
+
+print(string.lower())
+print(string.upper())
+print(string.capitalize())
